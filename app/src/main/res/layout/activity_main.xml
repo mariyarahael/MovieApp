@@ -1,0 +1,178 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50px">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter movie name"
+            android:layout_margin="10px"
+            android:id="@+id/movname"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actor"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="actor in the movie"
+            android:layout_margin="10px"
+            android:id="@+id/actorname"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actress"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="actress in the movie"
+            android:layout_margin="10px"
+            android:id="@+id/actressname"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Release year"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="year of release"
+            android:layout_margin="10px"
+            android:id="@+id/relyear"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="language used"
+            android:layout_margin="10px"
+            android:id="@+id/lang"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gross collection"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="collection"
+            android:layout_margin="10px"
+            android:id="@+id/grosscol"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distributor Name"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter the name of distributor"
+            android:layout_margin="10px"
+            android:id="@+id/disbtrname"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Producer Name"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter the producer's name"
+            android:layout_margin="10px"
+            android:id="@+id/prodname"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Production Company"
+            android:layout_marginTop="30px"
+            android:textSize="10pt"
+            android:textColor="#0F0907"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="production company name"
+            android:layout_margin="10px"
+            android:id="@+id/prodcomp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5D5336"
+            android:layout_margin="30px"
+            android:text="SUBMIT"
+            android:textColor="#FAF5FAFA"
+            android:id="@+id/submitbut"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5D5336"
+            android:layout_margin="30px"
+            android:text="VIEW ALL"
+            android:textColor="#FAF5FAFA"
+            android:id="@+id/viewbut"/>
+
+    </LinearLayout>
+
+</ScrollView>
